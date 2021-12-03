@@ -1,3 +1,5 @@
+#This script fetches crypto information and generates html,excel, pdf, xml
+# ,csv files of the output
 #Module to send http requests to server
 import requests
 #Module to utilize excel ,csv , pdf
