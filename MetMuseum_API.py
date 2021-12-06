@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-
+#function to normalize json data
 def Normalize(data):
     all_column = []
     selected_column = []
