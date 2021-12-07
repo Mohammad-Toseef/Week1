@@ -1,0 +1,64 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:root:None
+DEBUG:root:None
+DEBUG:root:None
+DEBUG:root:None
+DEBUG:root:True
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:root:CSV File Generated in path C:/Users/Mohammad Touseef/Documents/Crypto.csv
+DEBUG:root:Excel file generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.xlsx
+DEBUG:root:HTML is generated from CSV : Path - C:/Users/Mohammad Touseef/Documents/Crypto.html
+DEBUG:root:XML file has been generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.xml
+DEBUG:root:PDF File has been Generated : Path C:/Users/Mohammad Touseef/Documents/Crypto.pdf
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:root:CSV File Generated in path C:/Users/Mohammad Touseef/Documents/Crypto.csv
+DEBUG:root:Excel file generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.xlsx
+DEBUG:root:HTML is generated from CSV : Path - C:/Users/Mohammad Touseef/Documents/Crypto.html
+DEBUG:root:XML file has been generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.xml
+DEBUG:root:PDF File has been Generated : Path C:/Users/Mohammad Touseef/Documents/Crypto.pdf
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:root:CSV File has been Generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.csv
+DEBUG:root:Excel file has been generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.xlsx
+DEBUG:root:HTML is generated from CSV : Path - C:/Users/Mohammad Touseef/Documents/Crypto.html
+DEBUG:root:XML file has been generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.xml
+DEBUG:root:PDF File has been Generated : Path C:/Users/Mohammad Touseef/Documents/Crypto.pdf
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:root:CSV File has been Generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.csv
+DEBUG:root:Excel file has been generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.xlsx
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:root:CSV File has been Generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.csv
+DEBUG:root:Excel file has been generated : Path - C:/Users/Mohammad Touseef/Documents/Crypto.xlsx
+DEBUG:root:HTML is generated from CSV : Path - C:/Users/Mohammad Touseef/Documents/Crypto.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:root:CSV File has been Generated : Path - Crypto.csv
+DEBUG:root:Excel file has been generated : Path - Crypto.xlsx
+DEBUG:root:HTML is generated from CSV : Path - Crypto.html
+DEBUG:root:XML file has been generated : Path - Crypto.xml
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:root:CSV File has been Generated : Path - Crypto.csv
+DEBUG:root:Excel file has been generated : Path - Crypto.xlsx
+DEBUG:root:HTML is generated from CSV : Path - Crypto.html
+DEBUG:root:XML file has been generated : Path - Crypto.xml
+DEBUG:root:PDF File has been Generated : Path Crypto.pdf
