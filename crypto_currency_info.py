@@ -129,51 +129,64 @@ def html_to_pdf(html_file_name, pdf_file_name):
     except OSError as ose:
         logging.error(ose)
 
-
-try:
-    #checking if CSV File is present in current directory or not
-    if os.path.isfile( os.path.dirname(os.path.realpath(__file__)) + '\Crypto.csv'):
-        csv_dataframe = pd.read_csv('Crypto.csv')
-    else:
-        # Fetching data from API in case of CSV file not present
-        response = requests.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&"
-                                + "order=market_cap_desc&per_page=100&page=1&sparkline=false&price_"
-                                + "change_percentage=1h%2C24h")
-#       response = requests.get('no.com')
-        csv_file_name = 'Crypto.csv'
-        csv_dataframe = json_to_csv(response.json(), csv_file_name)
-        logging.info('Status Code : ' + str(response.status_code))
+def api_call(url):
+    '''
+    :param url: API URL
+    :return: response of the request
+    '''
+    try:
+        response = requests.get(url)
         if response.status_code >= 400:
             raise ConnectionError
-except requests.exceptions.RequestException as e:
-    logging.error('Error in establishing connection with API ')
-    logging.exception(e)
-    sys.exit(1)
-except json.JSONDecodeError as e:
-    logging.error('JSON data in response is not correct ')
-    logging.exception(e)
-    sys.exit(1)
-except ConnectionError as ce:
-    logging.error('A Connection error occured ')
-    logging.exception(ce)
-    sys.exit(1)
-else:
-    logging.info("Crypto.csv is available")
+        return response
+    except requests.exceptions.RequestException as e:
+        logging.error('Error in establishing connection with API ')
+        logging.exception(e)
+        sys.exit(1)
+    except ConnectionError as ce:
+        logging.error('A Connection error occured ')
+        logging.exception(ce)
+        sys.exit(1)
+def generate_files():
+    '''  call other functions to generate csv excel pdf xml html files   '''
+    try:
+        #checking if CSV File is present in current directory or not
+        if os.path.isfile( os.path.dirname(os.path.realpath(__file__)) + '\Crypto.csv'):
+            csv_dataframe = pd.read_csv('Crypto.csv')
+        else:
+            # Fetching data from API in case of CSV file not present
+            url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&" \
+                  + "order=market_cap_desc&per_page=100&page=1&sparkline=false&price_" \
+                  + "change_percentage=1h%2C24h"
+            response = requests.get(url)
+    #       response = requests.get('no.com')
+            csv_file_name = 'Crypto.csv'
+            csv_dataframe = json_to_csv(response.json(), csv_file_name)
+            logging.info('Status Code : ' + str(response.status_code))
+    except json.JSONDecodeError as e:
+        logging.error('JSON data in response is not correct ')
+        logging.exception(e)
+        sys.exit(1)
+    else:
+        logging.info("Crypto.csv is available")
 
-csv_dataframe = csv_dataframe.replace(np.nan, '' , regex = True)    # Replacing NaN values with whitespace
+    csv_dataframe = csv_dataframe.replace(np.nan, '' , regex = True)    # Replacing NaN values with whitespace
 
-#Excel File Generation
-excel_file_name = 'Crypto.xlsx'
-to_excel(csv_dataframe, excel_file_name)
+    #Excel File Generation
+    excel_file_name = 'Crypto.xlsx'
+    to_excel(csv_dataframe, excel_file_name)
 
-#Generating HTML file from CSV Dataframe
-html_file_name = 'Crypto.html'
-to_html(csv_dataframe, html_file_name)
+    #Generating HTML file from CSV Dataframe
+    html_file_name = 'Crypto.html'
+    to_html(csv_dataframe, html_file_name)
 
-#Generating XML File from CSV Dataframe
-xml_file_name = 'Crypto.xml'
-to_xml(csv_dataframe, xml_file_name)
+    #Generating XML File from CSV Dataframe
+    xml_file_name = 'Crypto.xml'
+    to_xml(csv_dataframe, xml_file_name)
 
-#Generating PDF File from HTML
-pdf_file_name = 'Crypto.pdf'
-html_to_pdf(html_file_name, pdf_file_name)
+    #Generating PDF File from HTML
+    pdf_file_name = 'Crypto.pdf'
+    html_to_pdf(html_file_name, pdf_file_name)
+
+if __name__ == '__main__':
+    generate_files()
