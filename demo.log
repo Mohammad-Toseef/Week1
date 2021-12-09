@@ -1,9 +1,5 @@
-2021-12-09 11:28:52,788 // DEBUG : Starting new HTTPS connection (1): api.coingecko.com:443 // line no. 971
-2021-12-09 11:28:53,824 // DEBUG : https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h HTTP/1.1" 200 None // line no. 452
-2021-12-09 11:28:53,855 // DEBUG : CSV File has been Generated : Filename - Crypto.csv // line no. 27
-2021-12-09 11:28:53,855 // INFO : Status Code : 200 // line no. 141
-2021-12-09 11:28:53,855 // INFO : Crypto.csv is available // line no. 156
-2021-12-09 11:28:53,855 // ERROR : Please Provide Valid Excel File Name // line no. 51
-2021-12-09 11:28:53,902 // DEBUG : HTML is generated from CSV : Filename - Crypto.html // line no. 71
-2021-12-09 11:28:53,949 // DEBUG : XML file has been generated : Filename - Crypto.xml // line no. 92
-2021-12-09 11:28:53,949 // ERROR : name 'file_name' is not defined // line no. 123
+2021-12-09 14:46:48,387 // INFO : Crypto.csv is available // line no. 161
+2021-12-09 14:46:48,450 // DEBUG : Excel file has been generated : Filename - Crypto.xlsx // line no. 45
+2021-12-09 14:46:48,481 // DEBUG : HTML is generated from CSV : Filename - Crypto.html // line no. 77
+2021-12-09 14:46:48,497 // DEBUG : XML file has been generated : Filename - Crypto.xml // line no. 98
+2021-12-09 14:46:54,192 // DEBUG : PDF File has been Generated : Filename Crypto.pdf // line no. 123
