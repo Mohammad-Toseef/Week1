@@ -9,6 +9,7 @@ import logging
 
 logging.basicConfig(filename='Crypto.log', level=logging.DEBUG)
 
+
 # Function to normalize JSON data fetched from API and saving it as csv File
 def JSON_to_CSV(JSON, file_name):
     '''
