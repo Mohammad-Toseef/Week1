@@ -1,5 +1,5 @@
-2021-12-09 14:46:48,387 // INFO : Crypto.csv is available // line no. 161
-2021-12-09 14:46:48,450 // DEBUG : Excel file has been generated : Filename - Crypto.xlsx // line no. 45
-2021-12-09 14:46:48,481 // DEBUG : HTML is generated from CSV : Filename - Crypto.html // line no. 77
-2021-12-09 14:46:48,497 // DEBUG : XML file has been generated : Filename - Crypto.xml // line no. 98
-2021-12-09 14:46:54,192 // DEBUG : PDF File has been Generated : Filename Crypto.pdf // line no. 123
+2021-12-09 15:36:20,161 // INFO : Crypto.csv is available // line no. 171
+2021-12-09 15:36:20,223 // DEBUG : Excel file has been generated : Filename - Crypto.xlsx // line no. 45
+2021-12-09 15:36:20,256 // DEBUG : HTML is generated from CSV : Filename - Crypto.html // line no. 77
+2021-12-09 15:36:20,271 // DEBUG : XML file has been generated : Filename - Crypto.xml // line no. 98
+2021-12-09 15:36:24,568 // DEBUG : PDF File has been Generated : Filename Crypto.pdf // line no. 123
